@@ -1,6 +1,6 @@
 <?php 
 add_filter('acf/location/rule_types', function ($choices) {
-    $choices['Page']['page_level'] = 'Page Level'
+    $choices['Page']['page_level'] = 'Page Level';
     return $choices;
 });
 
